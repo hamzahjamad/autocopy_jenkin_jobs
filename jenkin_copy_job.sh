@@ -39,7 +39,7 @@ if [ -n "${1}" -a -n "${2}" -a -n "${3}" -a -n "$4" -a -n "$5" -a -n "$6" -a -n 
     runcurl $1 $2 $3 $4 $5 $6 $7
 else
     echo "Usage:"
-    echo "  Please follow this convention: ${0} 'jenkin_username' 'jenkin_api_token' 'new_job_name' 'job_name_to_copy' 'jenkin_url' 'jenkin_project_token' 'repository'"
+    echo "  Please follow this convention: ${0} 'jenkin_username' 'jenkin_user_api_token' 'new_job_name' 'job_name_to_copy' 'jenkin_url' 'jenkin_project_token' 'repository'"
     exit 1
 fi
 
